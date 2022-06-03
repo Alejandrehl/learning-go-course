@@ -7,6 +7,8 @@ import (
 
 var z int = 30
 var lastName string = "Hernández"
+var emptyString string
+var defaultZero int
 
 func main() {
 	age := 27
@@ -16,6 +18,8 @@ func main() {
 	fmt.Println(message)
 	fmt.Println(number)
 	fmt.Println(lastName)
+	fmt.Println(emptyString)
+	fmt.Println(defaultZero)
 }
 
 func getNumber() int {

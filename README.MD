@@ -10,6 +10,14 @@
 6. `var` se utiliza para definir variables a nível de paquete.
 7. Las variables definidas sin la palabra `var` solo pueden ser accedidas dentro de su bloque de código.
 
+```go
+var emptyString string // => Returns ""
+var name string = "Alejandro"
+
+var defaultZero int // => Returns 0
+var age int = 30
+```
+
 ### Beneficios de usar GO
 
 1. El compilador de GO no permite declarar variables no utilizadas, es decir que si declaras una variable y no la estás utilizando el programa va a dar un error de compilación.
