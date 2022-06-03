@@ -1,5 +1,7 @@
 # Aprendiendo GO
 
+Go es un lenguaje creado con una nueva mirada al futuro de la programación. Nuevas palabras para hablar de algunos conceptos. No hablamos de objetos, en Go hablamos de crear tipos y valores de ciertos tipos. No hablamos de casting, hablamos de conversión y aserción.
+
 ### Conceptos clave
 
 1. `func main()` Es el punto de entrada y salida del programa.
