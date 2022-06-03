@@ -37,3 +37,7 @@ func main() {
     fmt.Println("Hello, world!") // => Success
 }
 ```
+
+### Librerías importantes
+
+1. [FMT](https://pkg.go.dev/fmt)
