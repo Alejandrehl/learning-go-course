@@ -3,7 +3,7 @@
 ### Conceptos clave
 
 1. `func main()` Es el punto de entrada y salida del programa.
-2. No puedes tener variables sin utilizar en el código.
+2. Go no compila si tienes variables sin utilizar en el código.
 3. `:=` Se utiliza para asignar una variable nueva.
 4. `=` Se utiliza para asignar un nuevo valor a una variable previamente declarada.
 5. `_` Se utiliza para indicar que la función esta retornando algo pero que no se va a utilizar después.
