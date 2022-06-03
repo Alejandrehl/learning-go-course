@@ -5,7 +5,8 @@ import (
 	"strconv"
 )
 
-var z = 30
+var z int = 30
+var lastName string = "Hernández"
 
 func main() {
 	age := 27
@@ -14,6 +15,7 @@ func main() {
 
 	fmt.Println(message)
 	fmt.Println(number)
+	fmt.Println(lastName)
 }
 
 func getNumber() int {
