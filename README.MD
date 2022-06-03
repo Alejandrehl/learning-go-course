@@ -12,6 +12,7 @@ Go es un lenguaje creado con una nueva mirada al futuro de la programación. Nue
 6. `var` se utiliza para definir variables a nível de paquete.
 7. Las tres palabras usadas para describir buenos nombres de paquetes son: `Corto`, `Conciso` y `Evocativo`.
 8. `const` Se utiliza para definir un valor constante, es decir un valor que se setea al momento de la compilación del código.
+9. En Go se utilizan `Structs` que son tipos de datos que se componen de otros datos de diferente tipo. Viene siendo lo que en otros lenguajes de programación se conoce como clase.
 
 ```go
 var emptyString string // => Returns ""
