@@ -8,8 +8,6 @@
 4. `=` Se utiliza para asignar un nuevo valor a una variable previamente declarada.
 5. `_` Se utiliza para indicar que la función esta retornando algo pero que no se va a utilizar después.
 6. `var` se utiliza para definir variables a nível de paquete.
-7. Las variables definidas sin la palabra `var` solo pueden ser accedidas dentro de su bloque de código.
-8. Las funciones que reciben `...interface{}` (Interfaz vacia) significa que reciben cualquier tipo de datos en cualquier cantidad.
 
 ```go
 var emptyString string // => Returns ""
@@ -18,6 +16,9 @@ var name string = "Alejandro"
 var defaultZero int // => Returns 0
 var age int = 30
 ```
+
+7. Las variables definidas sin la palabra `var` solo pueden ser accedidas dentro de su bloque de código.
+8. Las funciones que reciben `...interface{}` (Interfaz vacia) significa que reciben cualquier tipo de datos en cualquier cantidad.
 
 ### Beneficios de usar GO
 
@@ -36,6 +37,36 @@ func main() {
     _, _ := fmt.Println("Hello, world!") // => Error porque se esta intentando asignar un valor a variables que no se van a utilizar.
     _, _ = fmt.Println("Hello, world!") // => Success
     fmt.Println("Hello, world!") // => Success
+}
+```
+
+2. En Go se pueden crear nuevos tipos de datos según nuestra necesidad.
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+var a int
+
+type money int
+
+var b money
+
+func main() {
+	a = 42
+	fmt.Println(a)
+	fmt.Printf("%T\n", a)
+
+	b = 1000
+	fmt.Println(b)
+	fmt.Printf("%T\n", b)
+
+	a = b
+	fmt.Println(a)
+	fmt.Printf("%T\n", a)
 }
 ```
 
