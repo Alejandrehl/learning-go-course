@@ -4,28 +4,37 @@ import (
 	"fmt"
 )
 
-type person struct {
+type persona struct {
 	first string
 	last  string
 	age   int
 }
 
+type agenteSecreto struct {
+	persona
+	lpm bool
+}
+
 func main() {
-	p1 := person{
-		first: "Eduar",
-		last:  "Tua",
-		age:   31,
+
+	as1 := agenteSecreto{
+		persona: persona{
+			first: "James",
+			last:  "Bond",
+			age:   31,
+		},
+		lpm: true,
 	}
 
-	p2 := person{
+	p2 := persona{
 		first: "Condor",
 		last:  "Pérez",
 		age:   55,
 	}
 
-	fmt.Println(p1)
+	fmt.Println(as1)
 	fmt.Println(p2)
-
-	fmt.Println(p1.first, p1.last, p1.age)
+	fmt.Println(as1.first, as1.last, as1.age)
 	fmt.Println(p2.first, p2.last, p2.age)
+
 }
