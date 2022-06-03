@@ -10,6 +10,7 @@ Go es un lenguaje creado con una nueva mirada al futuro de la programación. Nue
 4. `=` Se utiliza para asignar un nuevo valor a una variable previamente declarada.
 5. `_` Se utiliza para indicar que la función esta retornando algo pero que no se va a utilizar después.
 6. `var` se utiliza para definir variables a nível de paquete.
+7. Las tres palabras usadas para describir buenos nombres de paquetes son: `Corto`, `Conciso` y `Evocativo`.
 
 ```go
 var emptyString string // => Returns ""
