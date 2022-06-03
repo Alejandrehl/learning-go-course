@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	age := 42
+	age := 27
 	message := "Hello, my name is Alejandro and I'm " + strconv.Itoa(age) + " years old."
 
 	fmt.Println(message)
