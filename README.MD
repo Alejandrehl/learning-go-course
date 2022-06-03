@@ -7,7 +7,8 @@
 3. `:=` Se utiliza para asignar una variable nueva.
 4. `=` Se utiliza para asignar un nuevo valor a una variable previamente declarada.
 5. `_` Se utiliza para indicar que la función esta retornando algo pero que no se va a utilizar después.
-6. Las variables definidas sin la palabra `var` solo pueden ser accedidas dentro de su bloque de código.
+6. `var` se utiliza para definir variables a nível de paquete.
+7. Las variables definidas sin la palabra `var` solo pueden ser accedidas dentro de su bloque de código.
 
 ### Beneficios de usar GO
 
