@@ -10,6 +10,8 @@ var lastName string = "Hernández"
 var emptyString string
 var defaultZero int
 
+const fullName string = "Alejandro Exequiel Hernández Lara"
+
 func main() {
 	age := 27
 	message := "Hello, my name is Alejandro and I'm " + strconv.Itoa(age) + " years old."
@@ -20,6 +22,7 @@ func main() {
 	fmt.Println(lastName)
 	fmt.Println(emptyString)
 	fmt.Println(defaultZero)
+	fmt.Println(fullName)
 }
 
 func getNumber() int {
