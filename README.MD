@@ -4,6 +4,9 @@
 
 1. `func main()` Es el punto de entrada y salida del programa.
 2. No puedes tener variables sin utilizar en el código.
+3. `:=` Se utiliza para asignar una variable nueva.
+4. `=` Se utiliza para asignar un nuevo valor a una variable previamente declarada.
+5. `_` Se utiliza para indicar que la función esta retornando algo pero que no se va a utilizar después.
 
 ### Beneficios de usar GO
 
@@ -19,7 +22,7 @@ import (
 func main() {
 	bytesNumber, err := fmt.Println("Hello, world!") // => Error por variables no utilizadas.
     _, err := fmt.Println("Hello, world!") // => Error por variable no utilizada.
-    _, _ := fmt.Println("Hello, world!") // => Error porque := indica que tienes variables nuevas y no es así en este caso.
+    _, _ := fmt.Println("Hello, world!") // => Error porque se esta intentando asignar un valor a variables que no se van a utilizar.
     _, _ = fmt.Println("Hello, world!") // => Success
     fmt.Println("Hello, world!") // => Success
 }
