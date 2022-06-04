@@ -30,6 +30,7 @@ const fullName string = "Alejandro Exequiel Hernández Lara"
 
 - Definción de una función simple: `func foo() { logic code }`.
 - Definción de una función compleja: `func (r receptor) identificador(params) retorno(s) { logic code }`
+  - [Como usar un receptor](https://www.udemy.com/course/aprende-a-programar-con-go/learn/lecture/12501950#overview)
 - Defer (Aplazar): La instrucción `defer` aplaza la ejecución de una función hasta que se retorna la función circundante.
 
 ```go
