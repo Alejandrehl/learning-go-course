@@ -124,3 +124,4 @@ func main() {
 ## Librerías importantes
 
 1. [FMT](https://pkg.go.dev/fmt)
+2. [Bcrypt](https://pkg.go.dev/golang.org/x/crypto/bcrypt)
