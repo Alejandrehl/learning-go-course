@@ -23,6 +23,8 @@ Go es un lenguaje creado con una nueva mirada al futuro de la programación. Nue
       1. Si tenemos una variable o valor que involucra una cantidad grande de datos y necesitamos pasarla por diferentes partes o funciones de nuestra aplicación lo mejor es utilizar un puntero.
       2. Cuando queremos cambiar directamente un valor que esta almacenado en memoria.
 13. JSON: Formato ligero de intercambio de datos.
+    - ¿Cuando ocupar Marshall?:
+    - ¿Cuando ocupar Unmarshall?:
 
 ```go
 var emptyString string // => Returns ""
