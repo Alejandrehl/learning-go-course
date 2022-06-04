@@ -2,7 +2,7 @@
 
 Go es un lenguaje creado con una nueva mirada al futuro de la programación. Nuevas palabras para hablar de algunos conceptos. No hablamos de objetos, en Go hablamos de crear tipos y valores de ciertos tipos. No hablamos de casting, hablamos de conversión y aserción.
 
-### Conceptos clave
+## Conceptos clave
 
 1. `func main()` Es el punto de entrada y salida del programa.
 2. Go no compila si tienes variables sin utilizar en el código.
@@ -26,7 +26,12 @@ const fullName string = "Alejandro Exequiel Hernández Lara"
 7. Las variables definidas sin la palabra `var` solo pueden ser accedidas dentro de su bloque de código.
 8. Las funciones que reciben `...interface{}` (Interfaz vacia) significa que reciben cualquier tipo de datos en cualquier cantidad.
 
-### Beneficios de usar GO
+## Funciones
+
+- func foo() {}
+- func (r receptor) identificador(params) retorno(s) { logic code}
+
+## Beneficios de usar GO
 
 1. El compilador de GO no permite declarar variables no utilizadas, es decir que si declaras una variable y no la estás utilizando el programa va a dar un error de compilación.
 
@@ -76,6 +81,6 @@ func main() {
 }
 ```
 
-### Librerías importantes
+## Librerías importantes
 
 1. [FMT](https://pkg.go.dev/fmt)
