@@ -28,8 +28,34 @@ const fullName string = "Alejandro Exequiel Hernández Lara"
 
 ## Funciones
 
-- func foo() {}
-- func (r receptor) identificador(params) retorno(s) { logic code}
+- Definción de una función simple: `func foo() { logic code }`.
+- Definción de una función compleja: `func (r receptor) identificador(params) retorno(s) { logic code }`
+- Defer (Aplazar): La instrucción `defer` aplaza la ejecución de una función hasta que se retorna la función circundante.
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	defer foo()
+	bar()
+
+	// RESULT:
+	// bar
+	// foo
+}
+
+func foo() {
+	fmt.Println("foo")
+}
+
+func bar() {
+	fmt.Println("bar")
+}
+```
 
 ## Beneficios de usar GO
 
