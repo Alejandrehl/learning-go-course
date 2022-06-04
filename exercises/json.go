@@ -26,20 +26,20 @@ func main() {
 
 	var personas []persona = []persona{p1, p2}
 
-	fmt.Println(personas)// => Return JSON value
+	fmt.Println(personas)
 
-	bs, err := json.Marshal(personas) // => Convert to Byte String
+	bs, err := json.Marshal(personas)
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(string(bs))// => Return Byte String
+	fmt.Println(string(bs))
 
 	err = json.Unmarshal(bs, &personas)
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	fmt.Println("Toda la data", personas)// => Return JSON value
+	fmt.Println("Toda la data", personas)
 
 	for i, v := range personas {
 		fmt.Println("\nPERSONA NÚMERO", i+1)
