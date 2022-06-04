@@ -14,10 +14,14 @@ Go es un lenguaje creado con una nueva mirada al futuro de la programación. Nue
 8. `const` Se utiliza para definir un valor constante, es decir un valor que se setea al momento de la compilación del código.
 9. En Go se utilizan `Structs` que son tipos de datos que se componen de otros datos de diferente tipo. Viene siendo lo que en otros lenguajes de programación se conoce como clase.
 10. No se recomienda utilizar la programación funcional en Go. Los callbacks son funciones que se pasan como parámetro a otro función y son la base de la programación funcional, esto se ocupa muchos en otros lenguajes de programación así que de todas formas sirve estar al tanto. [Explicación](https://www.udemy.com/course/aprende-a-programar-con-go/learn/lecture/12502022#overview).
-11. Pointers (Punteros): Todos los valores son almacenados en memoria. Cada ubicación en memoria tiene una dirección. Un pointer es una dirección en memoria.
+11. Todo en Go es pasado como valor.
+12. Pointers (Punteros): Todos los valores son almacenados en memoria. Cada ubicación en memoria tiene una dirección. Un pointer es una dirección en memoria.
     - &
     - -
     - \*int
+    - ¿Cuando utilizar punteros?:
+      1. Si tenemos una variable o valor que involucra una cantidad grande de datos y necesitamos pasarla por diferentes partes o funciones de nuestra aplicación lo mejor es utilizar un puntero.
+      2. Cuando queremos cambiar directamente un valor que esta almacenado en memoria.
 
 ```go
 var emptyString string // => Returns ""
